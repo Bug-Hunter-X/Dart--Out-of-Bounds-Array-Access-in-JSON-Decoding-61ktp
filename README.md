@@ -1,0 +1,3 @@
+# Dart: Out-of-Bounds Array Access in JSON Decoding
+
+This repository demonstrates a common error in Dart when working with JSON data: accessing an array index that may be out of bounds. The code fetches data from an API, parses it as JSON, and then attempts to access a specific element. If the JSON array is smaller than the accessed index, an error occurs. The solution shows how to prevent this error by checking the array length before accessing elements.
